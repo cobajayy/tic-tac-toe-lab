@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "attack-graffiti";
+  src: url(AttackGraffiti-3zRBM.ttf);
+}
+
+body {
+    background-color: gainsboro;
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: "attack-graffiti", sans-serif;
+    letter-spacing: 10px;
+    margin: 0;
+    background: linear-gradient(to right, rgb(204, 239, 203) ,hsl(110, 12%, 30%));
+    text-align: center;
+    justify-content: center;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px outset beige;
+    font-size: 64px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: hsl(110, 12%, 50%);
+  }
+
+#reset{
+  margin-top: 20px;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  border: 2mm ridge;
+  color: white;
+  background-color: rgba(122, 74, 65, 85%);
+  font-family: "attack-graffiti", sans-serif;
+  letter-spacing: 15px;
+  font-style: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
