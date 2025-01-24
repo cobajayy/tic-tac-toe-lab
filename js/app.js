@@ -1,3 +1,5 @@
+// worked on this assignment with brandon, ja'rod, victoria, brad, and mary
+
 //1) Define the required variables used to track the state of the game.
 
 //2) Store cached element references.
